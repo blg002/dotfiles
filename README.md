@@ -11,6 +11,14 @@ To update, `cd` into your local `dotfiles` repository and then:
 source bootstrap.sh
 ```
 
+then
+
+```bash
+source .osx
+```
+
+Quick restart and… Awesome, super powers are now available!!!
+
 Alternatively, to update while avoiding the confirmation prompt:
 
 ```bash
