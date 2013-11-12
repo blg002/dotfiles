@@ -14,6 +14,8 @@
   c = clone --recursive
   # Commit all changes
   ca = !git add -A && git commit -av
+  # Commit all changes with message
+  cam = !git add -A && git commit -avm
   # Switch to a branch, creating it if necessary
   go = checkout -B
   # Show verbose output about tags, branches or remotes
