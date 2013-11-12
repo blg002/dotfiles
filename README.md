@@ -8,7 +8,7 @@ This repo contains my personal dotfiles it is forked from [mathias](https://gith
 To update, `cd` into your local `dotfiles` repository and then:
 
 ```bash
-source bootstrap.sh
+source sync.sh
 ```
 
 then
@@ -22,7 +22,7 @@ Quick restart and… Awesome, super powers are now available!!!
 Alternatively, to update while avoiding the confirmation prompt:
 
 ```bash
-set -- -f; source bootstrap.sh
+set -- -f; source sync.sh
 ```
 
 ### Specify the `$PATH`
