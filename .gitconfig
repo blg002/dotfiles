@@ -12,12 +12,16 @@
   p = !"git pull; git submodule foreach git pull origin master"
   # Clone a repository including all submodules
   c = clone --recursive
-  # Commit all changes
-  ca = !git add -A && git commit -av
-  # Commit all changes with message
+  # Just add
+  a = add
+  # Commit with message
+  cm = commit -m
+  # Add and commit all changes with message
   cam = !git add -A && git commit -avm
+  # Go to a branch
+  go = checkout
   # Switch to a branch, creating it if necessary
-  go = checkout -B
+  gob = checkout -B
   # Show local branches
   b = branch
   # Show verbose output about tags, branches or remotes
