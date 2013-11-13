@@ -369,7 +369,7 @@ function prunedir () {
 # Usage: browsers "http://www.google.com"
 function browsers(){
   chrome $1
-  opera $1
+  # opera $1
   firefox $1
   safari $1 
 }
