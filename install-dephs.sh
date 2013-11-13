@@ -46,3 +46,4 @@ sudo gem install jekyll
 
 # Set symlink for Sublime Text 2
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+
