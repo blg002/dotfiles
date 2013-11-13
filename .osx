@@ -221,6 +221,9 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 # Finder                                                                      #
 ###############################################################################
 
+# Hide the Harddrive icon on the desktop
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool NO
+
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
 
