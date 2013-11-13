@@ -12,8 +12,8 @@
   pl = !"git pull; git submodule foreach git pull origin master"
   # Clone a repository including all submodules
   c = clone --recursive
-  # Just add
-  a = add
+  # Just add all
+  aa = add -A
   # Commit with message
   cm = commit -m
   # Add and commit all changes with message
