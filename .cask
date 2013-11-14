@@ -6,7 +6,10 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
+installcask charles
+installcask day-o
 installcask dropbox
+installcask firefox
 installcask google-chrome
 installcask google-chrome-canary
 installcask imagealpha
