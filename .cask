@@ -6,17 +6,32 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
+installcask appzapper
 installcask charles
+installcask cloudapp
 installcask day-o
+installcask disk-inventory-x
 installcask dropbox
 installcask firefox
+installcask flickr-uploadr
+installcask github
 installcask google-chrome
 installcask google-chrome-canary
+installcask hipchat
 installcask imagealpha
 installcask imageoptim
 installcask miro-video-converter
+installcask opera
+installcask sequel-pro
+installcask sketch
+installcask skitch
+installcask skype
+installcask spectacle
+installcask spotify
+installcask superduper
 installcask sublime-text
 installcask the-unarchiver
 installcask transmission
 installcask virtualbox
 installcask vlc
+installcask xscope
